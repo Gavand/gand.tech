@@ -2,13 +2,21 @@
 <html>
 <body>
 <div class="bgimg">
+  <div class="topleft">
+  </div>
   <div class="middle">
     <h1>HOME</h1>
+  </div>
+  <div class="bottomleft">
   </div>
 </div>
 
 </body>
 <style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
 
 .bgimg {
     background-image: url('/beeplechip.jpg');
@@ -19,6 +27,18 @@
     color: white;
     font-family: "Courier New", Courier, monospace;
     font-size: 60px;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
 }
 
 .middle {
