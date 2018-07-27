@@ -13,7 +13,7 @@
     <h1>HELLO WORLD</h1>
     <!-- <p>UNDER CONSTRUCTION</p> -->
     <!-- <hr> -->
-    <a href="enter.html" style="color: #FFFFFF" size="50px">ENTER</a>
+    <a class="hover" href="enter.html" style="color: #FFFFFF" size="50px">ENTER</a>
   </div>
   <div class="bottomleft">
     <!-- <p>Some text</p> -->
@@ -64,6 +64,15 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+a.hover {
+  text-decoration: none;
+}
+
+a.hover:hover {
+  color: :red;
+  text-decoration: underline;
 }
 
 hr {
